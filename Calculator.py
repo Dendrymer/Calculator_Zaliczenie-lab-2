@@ -28,7 +28,8 @@ class Calculator:
         except ZeroDivisionError:
             return "Błąd: nie można dzielić przez zero"
 
-if __name__ == "__main__":
+
+if __name__ == "__main__": # pragma: no cover
     #zgodny typ danych:
     print("Przykładowe działania kalkulatora:\n")
 
@@ -69,3 +70,4 @@ if __name__ == "__main__":
         print(calc.nie_istnieje)
     except AttributeError as e:
         print("\nprint(calc.nie_istnieje) -> Błąd: próba dostępu do nieistniejącego atrybutu:", e)
+
