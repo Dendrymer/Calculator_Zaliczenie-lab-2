@@ -1,29 +1,16 @@
-# created by virtualenv automatically
-# === Python ===
-__pycache__/
-*.py[cod]
-*.log
-*.tmp
+# Ignoruj wszystko
+*
 
-# === Virtual environments ===
-.venv/
-venv/
-env/
+# Folder potrzebny do dotarcia do coverage/index.html
+!*/
 
-# === IDE: PyCharm ===
-.idea/
-*.iml
+# Nie ignoruj plików Python (plik testów i kalkulatora)
+!*.py
 
-# === Build artifacts ===
-build/
-dist/
-*.egg-info/
+# Nie ignoruj README (różne warianty)
+!README
+!README.md
+!README.txt
 
-# === OS-specific ===
-Thumbs.db
-
-# === Backup and archive files ===
-*.bak
-*.zip
-*.tar
-*.gz
+# Nie ignoruj index.html z raportem coverage
+!htmlcov/index.html
