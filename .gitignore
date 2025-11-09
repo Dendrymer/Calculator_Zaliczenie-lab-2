@@ -1,0 +1,29 @@
+# created by virtualenv automatically
+# === Python ===
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+
+# === IDE: PyCharm ===
+.idea/
+*.iml
+
+# === Build artifacts ===
+build/
+dist/
+*.egg-info/
+
+# === OS-specific ===
+Thumbs.db
+
+# === Backup and archive files ===
+*.bak
+*.zip
+*.tar
+*.gz
