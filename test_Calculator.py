@@ -2,8 +2,8 @@ import pytest
 from Calculator import Calculator
 #test funkcji obliczeniowych kalkulatora:
 def test_sum():
-    calc = Calculator(10, 5)
-    assert calc.sum() == 15
+    calc = Calculator(0.1, 0.2)
+    assert calc.sum() == pytest.approx(0.3)
 
 def test_sub():
     calc = Calculator(10, 5)
